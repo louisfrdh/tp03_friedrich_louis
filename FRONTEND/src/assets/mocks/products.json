@@ -1,0 +1,8 @@
+[
+    {"category": "jersey", "team": "Biarritz Olympique", "price": 85.00, "image": "../../assets/mocks/bo.jpg"},
+    {"category": "jersey", "team": "Clermont", "price": 85.00, "image": "../../assets/mocks/asm.jpg"},
+    {"category": "jersey", "team": "Union Bordeaux Bègles", "price": 79.00, "image": "../../assets/mocks/ubb.jpg"},
+    {"category": "jersey", "team": "Racing 92", "price": 90.00, "image": "../../assets/mocks/rm92.jpg"},
+    {"category": "jersey", "team": "Stade Français Paris", "price": 79.00, "image": "../../assets/mocks/sf.jpg"},
+    {"category": "jersey", "team": "Stade Toulousain", "price": 90.00, "image": "../../assets/mocks/st.jpg"}
+]
