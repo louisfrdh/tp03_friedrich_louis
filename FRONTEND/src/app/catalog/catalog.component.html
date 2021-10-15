@@ -1,6 +1,11 @@
-
+<div id="search-box-div">
+    <div id="search-field" class="top-div">
+        <input #input type="text" placeholder="Filtrer" [(ngModel)]="teamFilter">
+    </div>
+</div>
 
 <div class="row row-cols-4 row-cols-md-2 g-4" >
+    <!-- | filter: {team:teamFilter} -->
     <div class="col" *ngFor="let p of products | async">
         <div class="card h-100">
             <img src={{p.image}} class="card-img-top" alt="...">

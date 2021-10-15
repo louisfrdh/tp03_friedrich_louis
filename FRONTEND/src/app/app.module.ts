@@ -9,6 +9,7 @@ import { AccountFormSummaryComponent } from './account-form-summary/account-form
 import { TetiereComponent } from './tetiere/tetiere.component';
 import { CatalogComponent } from './catalog/catalog.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FilterPipe } from './filter.pipe';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
     AccountFormComponent,
     AccountFormSummaryComponent,
     TetiereComponent,
-    CatalogComponent
+    CatalogComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,

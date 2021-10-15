@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
+import { FilterPipe } from '../filter.pipe';
 import { Product } from '../product';
 import { ProductService } from '../product.service';
 
@@ -13,6 +14,7 @@ export class CatalogComponent implements OnInit {
   constructor(private productService: ProductService) {  }
 
   products: Observable<Array<Product>> = new Observable<Array<Product>>();
+  teamFilter: string = "";
 
   ngOnInit(): void {
     this.products = this.productService.getProducts();
